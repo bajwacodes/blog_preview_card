@@ -42,6 +42,12 @@ body{
 .heading a{
     text-decoration: none;
     color: black;
+    display: inline-block;
+}
+
+a:hover{
+    transform: scale(1.05);
+    color: hsl(47, 88%, 63%);
 }
 
 .desc{
